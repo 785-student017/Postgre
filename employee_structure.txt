@@ -1,0 +1,14 @@
+                        テーブル"public.employee"
+    列    |        タイプ         | 照合順序 | Null 値を許容 | デフォルト 
+----------+-----------------------+----------+---------------+------------
+ emp_id   | integer               |          | not null      | 
+ dept_id  | integer               |          |               | 
+ emp_name | character varying(20) |          |               | 
+ birthday | date                  |          |               | 
+ hiredate | date                  |          |               | 
+ gender   | integer               |          |               | 
+ sal      | numeric(9,2)          |          |               | 
+ comm     | numeric(7,2)          |          |               | 
+インデックス:
+    "employee_pkey" PRIMARY KEY, btree (emp_id)
+
